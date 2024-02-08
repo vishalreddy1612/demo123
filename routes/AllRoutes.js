@@ -6,7 +6,7 @@ const upload = multer();
 
 allroutes.get('/',(req,res) => {
     console.log(" reached root");
-    res.send("Welcome to KMIT server");
+    res.send("Welcome to Backend server");
 });
 
 allroutes.get('/houses',async (req,res) => {
